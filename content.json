@@ -1,0 +1,148 @@
+{
+    "musicas": [
+        {
+            "title": "Alex Zurdo - Pentagrama (Video Oficial)",
+            "file": "assets/musicas/Alex Zurdo - Pentagrama (Video Oficial).mp3",
+            "thumb": "assets/default-thumb.jpg",
+            "type": "audio"
+        },
+        {
+            "title": "Cuando Yo Te Conocí - Alex Zurdo ft AZ Family (Video Oficial)",
+            "file": "assets/musicas/Cuando Yo Te Conocí - Alex Zurdo ft AZ Family (Video Oficial).mp3",
+            "thumb": "assets/default-thumb.jpg",
+            "type": "audio"
+        },
+        {
+            "title": "MUSICA CRISTIANA JUVENIL - MIX DE LO MAS ESCUCHADO 2023 - FUNKY - ALEX ZURDO - REDIMI2",
+            "file": "assets/musicas/MUSICA CRISTIANA JUVENIL - MIX DE LO MAS ESCUCHADO 2023 - FUNKY - ALEX ZURDO - REDIMI2.mp3",
+            "thumb": "assets/default-thumb.jpg",
+            "type": "audio"
+        },
+        {
+            "title": "TODO VA A ESTAR BIEN⧸REDIMI2 Y EVAN CRAFT⧸ COVER⧸ MATTHEW MORALES Y WALESKA MORALES",
+            "file": "assets/musicas/TODO VA A ESTAR BIEN⧸REDIMI2 Y EVAN CRAFT⧸ COVER⧸ MATTHEW MORALES Y WALESKA MORALES.mp3",
+            "thumb": "assets/default-thumb.jpg",
+            "type": "audio"
+        },
+        {
+            "title": "⚡MIX Kike Pavón 2021😎 ⧸ Lo MEJOR👌🏻 de Kike Pavón ⧸ Mix Juvenil 2021",
+            "file": "assets/musicas/⚡MIX Kike Pavón 2021😎 ⧸ Lo MEJOR👌🏻 de Kike Pavón ⧸ Mix Juvenil 2021.mp3",
+            "thumb": "assets/default-thumb.jpg",
+            "type": "audio"
+        }
+    ],
+    "peliculas": [
+        {
+            "title": "DESEO ｜ La historia de un triángulo amoroso ｜ MEJOR PELICULA",
+            "file": "assets/peliculas/DESEO ｜ La historia de un triángulo amoroso ｜ MEJOR PELICULA.webm",
+            "thumb": "assets/default-thumb.jpg"
+        },
+        {
+            "title": "Goku vs Kid Boo - Pelea completa en español latino",
+            "file": "assets/peliculas/Goku vs Kid Boo - Pelea completa en español latino.mkv",
+            "thumb": "assets/default-thumb.jpg"
+        },
+        {
+            "title": "Mejor drama basado en una historia real ｜ Peliculas completas en español latino",
+            "file": "assets/peliculas/Mejor drama basado en una historia real ｜ Peliculas completas en español latino.mp4",
+            "thumb": "assets/default-thumb.jpg"
+        },
+        {
+            "title": "pelicula1",
+            "file": "assets/peliculas/pelicula1.mp4",
+            "thumb": "assets/peliculas/thumbs/pelicula1.jpg"
+        },
+        {
+            "title": "Superman (1978) EN español - Marvel Pelicula Completa - Christopher Reeve - Datos y reseñas",
+            "file": "assets/peliculas/Superman (1978) EN español - Marvel Pelicula Completa - Christopher Reeve - Datos y reseñas.mkv",
+            "thumb": "assets/default-thumb.jpg"
+        },
+        {
+            "title": "UNA PELÍCULA INCREÍBLE ｜ Pasiones Calientes en la Cocina ｜ Romance, Comedia ｜ Completa en Español 4K",
+            "file": "assets/peliculas/UNA PELÍCULA INCREÍBLE ｜ Pasiones Calientes en la Cocina ｜ Romance, Comedia ｜ Completa en Español 4K.mkv",
+            "thumb": "assets/default-thumb.jpg"
+        },
+        {
+            "title": "¡Película de comedia romántica con Matthew Perry! ｜ Peliculas completas en español latino 4K",
+            "file": "assets/peliculas/¡Película de comedia romántica con Matthew Perry! ｜ Peliculas completas en español latino 4K.mp4",
+            "thumb": "assets/default-thumb.jpg"
+        },
+        {
+            "title": "😮 ¡Esta PELÍCULA No Te Dejará Indiferente! ｜ Ver Acción Catástrofe en Español ｜ Apocalypse Pompeii",
+            "file": "assets/peliculas/😮 ¡Esta PELÍCULA No Te Dejará Indiferente! ｜ Ver Acción Catástrofe en Español ｜ Apocalypse Pompeii.mp4",
+            "thumb": "assets/default-thumb.jpg"
+        }
+    ],
+    "series": [
+        {
+            "title": "CEO la rechaza por ser gorda, pero ella tras baja 250 kilos, él arrepiente y empieza a perseguirla",
+            "file": "assets/series/CEO la rechaza por ser gorda, pero ella tras baja 250 kilos, él arrepiente y empieza a perseguirla.webm",
+            "thumb": "assets/default-thumb.jpg"
+        },
+        {
+            "title": "serie1_ep1",
+            "file": "assets/series/serie1_ep1.mp4",
+            "thumb": "assets/default-thumb.jpg"
+        },
+        {
+            "title": "💞La chica evitó el acoso y se abalanzó sobre el CEO, ¡y el CEO se enamoró de ella a primera vista!",
+            "file": "assets/series/💞La chica evitó el acoso y se abalanzó sobre el CEO, ¡y el CEO se enamoró de ella a primera vista!.webm",
+            "thumb": "assets/default-thumb.jpg"
+        }
+    ],
+    "animes": [
+        {
+            "title": "anime1_ep1",
+            "file": "assets/animes/anime1_ep1.mp4",
+            "thumb": "assets/default-thumb.jpg"
+        },
+        {
+            "title": "Naruto temporada 1 capitulo 1 completo en español latino",
+            "file": "assets/animes/Naruto temporada 1 capitulo 1 completo en español latino.webm",
+            "thumb": "assets/default-thumb.jpg"
+        },
+        {
+            "title": "Naruto temporada 1 episodio 2 (completo)",
+            "file": "assets/animes/Naruto temporada 1 episodio 2 (completo).mkv",
+            "thumb": "assets/default-thumb.jpg"
+        }
+    ],
+    "tv": [
+        {
+            "title": "ATB",
+            "url": "\"url\": \"https://www.atb.com.bo/atb-en-vivo/\""
+        },
+        {
+            "title": "bolivia_tv",
+            "url": "\"url\": \"https://www.boliviatv.bo/principal/vivo71.php\""
+        },
+        {
+            "title": "cadena_A",
+            "url": "\"url\": \"https://www.cadenaa.tv/\""
+        },
+        {
+            "title": "canal1_stream",
+            "url": "Placeholder for TV stream (replace with stream URL or mp4)"
+        },
+        {
+            "title": "Megavisión",
+            "url": "\"url\": \"https://tvmegavision.com/\""
+        },
+        {
+            "title": "red_pat",
+            "url": "\"url\": \"https://www.redpat.tv/envivoscz\""
+        },
+        {
+            "title": "red_uno",
+            "url": "\"url\": \"https://www.reduno.com.bo/senal-en-vivo"
+        },
+        {
+            "title": "TVU",
+            "url": "\"url\": \"https://tvu.umsa.bo/en-vivo\""
+        },
+        {
+            "title": "unitel",
+            "url": "\"url\": \"https://television.unitel.bo/vivo\""
+        }
+    ]
+}
