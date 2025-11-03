@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Animes – Miranda</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <img src="assets/logo2025.jpeg" alt="logo" class="logo">
+      <div class="brand-title">Miranda Entertainment Group</div>
+    </div>
+
+    <div class="search-wrapper">
+      <input id="searchInput" placeholder="Buscar Animes..." />
+      <button id="searchBtn">🔍</button>
+    </div>
+  </header>
+
+  <main id="catalog" data-section="animes" class="catalog-page">
+    <!-- Se inyecta por script.js -->
+  </main>
+
+  <nav class="bottom-nav">
+    <a href="index.html" class="nav-btn"><i class="fas fa-home"></i><span>Inicio</span></a>
+    <a href="music.html" class="nav-btn"><i class="fas fa-music"></i><span>Música</span></a>
+    <a href="peliculas.html" class="nav-btn"><i class="fas fa-film"></i><span>Películas</span></a>
+    <a href="series.html" class="nav-btn"><i class="fas fa-tv"></i><span>Series</span></a>
+    <a href="animes.html" class="nav-btn"><i class="fas fa-dragon"></i><span>Animes</span></a>
+    <a href="tv.html" class="nav-btn"><i class="fas fa-broadcast-tower"></i><span>TV</span></a>
+    <a href="descargas.html" class="nav-btn"><i class="fas fa-download"></i><span>Descargas</span></a>
+    <a href="ajustes.html" class="nav-btn"><i class="fas fa-cog"></i><span>Ajustes</span></a>
+  </nav>
+
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-box">
+      <button id="closeModal" class="modal-close">✕</button>
+      <div id="playerArea"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

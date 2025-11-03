@@ -1,0 +1,238 @@
+:root{
+  --bg:#000;
+  --card:#0f1418;
+  --muted:#9aa6b2;
+  --accent:#E50914;
+  --glass: rgba(255,255,255,0.03);
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+
+body{
+  font-family:Inter,system-ui,Arial,sans-serif;
+  background:var(--bg);
+  color:#fff;
+  min-height:100vh;
+  padding-bottom:120px;
+}
+
+.topbar{
+  position:sticky;
+  top:0;
+  z-index:30;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:12px 16px;
+  background:linear-gradient(180deg, rgba(0,0,0,0.6), transparent);
+  border-bottom:1px solid rgba(255,255,255,0.02);
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.logo{
+  width:60px;
+  height:60px;
+  object-fit:contain;
+  border-radius:8px;
+  background:var(--glass);
+  padding:6px;
+}
+
+.brand-title{
+  font-weight:800;
+  color:var(--accent);
+  text-transform:uppercase;
+  letter-spacing:1px;
+}
+
+.search-wrapper{
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+
+#searchInput{
+  width:360px;
+  max-width:55vw;
+  padding:10px 12px;
+  border-radius:10px;
+  border:1px solid rgba(255,255,255,0.04);
+  background:rgba(255,255,255,0.02);
+  color:inherit;
+}
+
+#searchBtn{
+  padding:9px 12px;
+  border-radius:10px;
+  border:0;
+  background:var(--accent);
+  color:#fff;
+  cursor:pointer;
+  font-weight:700;
+}
+
+.catalog-page{
+  padding:12px 10px 140px;
+}
+
+.section{
+  margin:18px 0;
+  max-width:1200px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.section .section-head{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-bottom:12px;
+  padding:0 6px;
+}
+
+.section h3{
+  font-size:18px;
+}
+
+/* --- GRID DE MINIATURAS --- */
+.row.grid-row{
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(150px, 1fr));
+  gap:14px;
+}
+
+.card{
+  border-radius:12px;
+  background:var(--card);
+  overflow:hidden;
+  box-shadow:0 6px 18px rgba(0,0,0,0.6);
+  transition:transform .18s;
+  cursor:pointer;
+}
+
+.card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 18px 40px rgba(0,0,0,0.6);
+}
+
+.thumb{
+  height:220px;
+  width:100%;
+  object-fit:cover;
+  background:#071017;
+}
+
+.title{
+  padding:8px 8px 12px;
+  font-size:13px;
+  text-align:center;
+  color:#e6eef6;
+}
+
+.bottom-nav{
+  position:fixed;
+  left:0;
+  right:0;
+  bottom:0;
+  height:84px;
+  background:rgba(7,9,11,0.98);
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  border-top:1px solid rgba(255,255,255,0.03);
+  z-index:40;
+}
+
+.nav-btn{
+  color:var(--muted);
+  text-decoration:none;
+  font-weight:700;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:6px;
+}
+
+.nav-btn span{font-size:12px}
+.nav-btn .fas{font-size:18px}
+.nav-btn.active, .nav-btn:hover{color:var(--accent)}
+
+.modal{
+  position:fixed;
+  inset:0;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:rgba(0,0,0,0.75);
+  visibility:hidden;
+  opacity:0;
+  transition:all .16s;
+  z-index:90;
+}
+
+.modal.open{visibility:visible;opacity:1}
+
+.modal-box{
+  width:min(980px,94%);
+  background:#071014;
+  padding:14px;
+  border-radius:10px;
+  position:relative;
+}
+
+.modal-close{
+  position:absolute;
+  right:10px;
+  top:8px;
+  background:transparent;
+  border:0;
+  color:var(--muted);
+  font-size:20px;
+  cursor:pointer;
+}
+
+#playerArea h3{margin-bottom:10px}
+
+.player-bar{
+  position:fixed;
+  left:0;
+  right:0;
+  bottom:84px;
+  height:70px;
+  background:#081014;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:8px 16px;
+  border-top:1px solid rgba(255,255,255,0.02);
+  z-index:80;
+}
+
+.player-info{display:flex;gap:10px;align-items:center}
+.player-controls{display:flex;align-items:center;gap:8px}
+.progress{flex:1;height:6px;background:rgba(255,255,255,0.06);border-radius:6px;overflow:hidden}
+.progress > div{height:100%;background:var(--accent);width:0%}
+.empty{color:var(--muted);padding:12px;text-align:center}
+
+/* --- RESPONSIVE --- */
+@media (max-width:1200px){
+  .row.grid-row{grid-template-columns:repeat(auto-fill, minmax(140px, 1fr));}
+  .card:hover{transform:translateY(-6px);}
+}
+
+@media (max-width:860px){
+  #searchInput{width:50vw}
+  .row.grid-row{grid-template-columns:repeat(auto-fill, minmax(120px, 1fr));}
+  .thumb{height:160px}
+  .brand-title{font-size:15px}
+}
+
+@media (max-width:480px){
+  .row.grid-row{grid-template-columns:repeat(auto-fill, minmax(100px, 1fr));}
+  .thumb{height:120px;}
+}
