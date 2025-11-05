@@ -1,1 +1,1 @@
-"url": "https://tvu.umsa.bo/en-vivo"
+url: https://tvu.umsa.bo/en-vivo
