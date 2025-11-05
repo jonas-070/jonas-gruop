@@ -1,1 +1,1 @@
-"url": "https://tvmegavision.com/"
+url: https://tvmegavision.com/
