@@ -1,4 +1,4 @@
-<!doctype html>
+<!doctype html> 
 <html lang="es">
 <head>
   <meta charset="utf-8"/>
@@ -42,6 +42,23 @@
     </div>
   </div>
 
+  <!-- 🔹 Scripts principales -->
+  <script src="generaContent.js"></script>
+  <script src="generaContentAvanzado.js"></script>
   <script src="script.js"></script>
+
+  <!-- 🔹 Ejecución automática -->
+  <script>
+    document.addEventListener("DOMContentLoaded", async () => {
+      if (typeof window.generaContent === "function") {
+        await window.generaContent();
+        if (typeof window.generaContentAvanzado === "function") {
+          window.generaContentAvanzado();
+        }
+      } else {
+        console.error("❌ No se encontró generaContent.js cargado correctamente.");
+      }
+    });
+  </script>
 </body>
 </html>
